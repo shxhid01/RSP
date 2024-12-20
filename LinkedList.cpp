@@ -168,14 +168,14 @@ int main() {
     Linkedlist list1;
 
     // Insert elements at the end
-    list1.InsetAtEnd(10);
-    list1.InsetAtEnd(20);
+    list1.InsetAtEnd(9);
+    list1.InsetAtEnd(17);
 
     // Insert element at the beginning
-    list1.InsertAtStart(5);
+    list1.InsertAtStart(4);
 
     // Insert element at a specific position
-    list1.insertAtPosition(15, 3);
+    list1.insertAtPosition(6, 9);
 
     cout << "Linked list after insertions: ";
     list1.show();
@@ -191,8 +191,8 @@ int main() {
     list1.show();
 
     // Delete element from a specific position
-    list1.deleteFromPosition(2);
-    cout << "Linked list after deleting from position 2: ";
+    list1.deleteFromPosition(5);
+    cout << "Linked list after deleting from position 5: ";
     list1.show();
 
     return 0;
